@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #474747;
+    margin: 0;
+    padding: 0;
+}
+
+body::placeholder {
+    color: rgb(234, 157, 14);
+}
+
+label {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.myform {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #474747;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.877);
+}
+
+h2#form {
+    text-align: center;
+    color: #e6e6e6;
+}
+
+#errors {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #c31c1c;
+    border-radius: 4px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+p.pol {
+    color: #e6e6e6;
+}
+
+.btn-success {
+    background-color: #e6e6e6;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.alert-primary {
+    background-color: #cce5ff;
+    color: #004085;
+    border-color: #b8daff;
+}
